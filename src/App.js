@@ -17,6 +17,6 @@ componentDidMount(){
   .then(res => res.json())
   .then(({people}) => this.setState({ peopleInSpace: people }))
 }
-  
+
 }
 export default App
